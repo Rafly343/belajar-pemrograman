@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapz TopUp - TopUp Game dan Item Anda!</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .container h2 {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-size: 18px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        select, input, button {
+            padding: 12px;
+            font-size: 16px;
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+
+        select, input {
+            margin-top: 8px;
+        }
+
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rapz TopUp</h1>
+        <p>TopUp Game dan Item Anda dengan Mudah!</p>
+    </header>
+
+    <div class="container">
+        <h2>Pilih Game dan Nominal TopUp</h2>
+
+        <form action="#" method="get">
+            <!-- Game Selection -->
+            <div class="form-group">
+                <label for="game">Pilih Game:</label>
+                <select name="game" id="game">
+                    <option value="mobile-legends">Mobile Legends</option>
+                    <option value="free-fire">Free Fire</option>
+                    <option value="pubg">PUBG Mobile</option>
+                    <option value="call-of-duty">Call of Duty</option>
+                </select>
+            </div>
+
+            <!-- Nominal Selection -->
+            <div class="form-group">
+                <label for="nominal">Pilih Nominal TopUp:</label>
+                <select name="nominal" id="nominal">
+                    <option value="10000">Rp 10.000</option>
+                    <option value="50000">Rp 50.000</option>
+                    <option value="100000">Rp 100.000</option>
+                    <option value="200000">Rp 200.000</option>
+                </select>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit">Lanjutkan</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Rapz TopUp - Semua Hak Dilindungi</p>
+    </footer>
+</body>
+</html>
